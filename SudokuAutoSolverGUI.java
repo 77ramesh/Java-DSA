@@ -129,7 +129,6 @@ class Graph extends JPanel implements Runnable{
 					for(int z=1;z<=9;z++) {
 						if(possible(y, x, z)) {
 							board[y][x] = z;
-							removeAll();
 							Thread.sleep(300);
 							repaint();
 						}
